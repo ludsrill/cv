@@ -34,7 +34,8 @@ const printedInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         {
           email && (
             <a
-              title={`Visit the profile of ${name} en ${email}`}
+              href={`mailto:${email}`}
+              title={`Email: ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -46,7 +47,8 @@ const printedInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         {
           phone && (
             <a
-              title={`Visit the profile of ${name} en ${phone}`}
+              href={`https://wa.me/573205041211`}
+              title={`Phone number: ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -131,7 +133,7 @@ const printedInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     height: 32px;
     width: 32px;
     border-radius: 6px;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
   }
 
   footer a:hover {

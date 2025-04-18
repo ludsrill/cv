@@ -6,7 +6,7 @@
     "email": "luisdavidsag@gmail.com",
     "phone": "(57) 320-504-1211",
     "url": null,
-    "summary": "4+ years of professional backend engineer experience building applications with Python, GraphQL, React and Typescript as stack and experience with  DevOps and Cloud technologies, terraform, containerization  technologies (Docker) and cloud providers as AWS,  Azure, GCP. Working in high-performance teams, focusing on rapidly delivering value to the company and at the same time developing a tool that quickly and accurately delivers value to our clients",
+    "summary": "4+ years of professional backend engineer experience building applications with Python, GraphQL, React and Typescript as stack and experience with  DevOps and Cloud technologies, terraform, containerization  technologies (Docker) and cloud providers as AWS,  Azure, GCP. Working in high-performance teams, focusing on rapidly delivering value to the company and at the same time developing a tool that quickly and accurately delivers value to our clients.",
     "location": {
       "address": null,
       "postalCode": null,
@@ -176,7 +176,7 @@
       "name": "Curriculum",
       "startDate": "2025-04-01",
       "endDate": null,
-      "description": "This is a minimalist CV, based on the Bartosz Jarocki and Midudev CV projects",
+      "description": "This is a minimalist CV, based on the Bartosz Jarocki and Midudev CV projects.",
       "highlights": [
         "React",
         "Astro"

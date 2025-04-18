@@ -13,7 +13,11 @@ import { certificates } from "cv.json";
             <article>
               <header>
                 <div>
-                  <h3>{name}</h3>
+                  <h3>
+                    <a href={url} target="_blank" rel="noopener noreferrer">
+                      {name}
+                    </a>
+                  </h3>
                   <h4>{issuer}</h4>
                 </div>
                 <time>{year}</time>
@@ -36,6 +40,13 @@ import { certificates } from "cv.json";
   article h3 {
     font-weight: 700;
     font-size: 0.8rem;
+  }
+
+  article a {
+    color: white;
+  }
+  article a:hover {
+    text-decoration: underline;
   }
 
   article h4 {
