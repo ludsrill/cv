@@ -1,5 +1,26 @@
 ---
 import Section from "../Section.astro";
+import { work } from "cv.json";
 ---
 
-<Section title="Experience" />
+<Section title="Experience">
+  <ul>
+    {
+      work.map(
+        ({ name, position, startDate, endDate, summary, highlights }) => {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate !== null ? new Date(endDate).getFullYear() : "Present";
+          const years = `${startYear} - ${endYear}`;
+          return (
+            <li>
+              <h3>{name}</h3>
+              <h4>{position}</h4>
+              <p>{summary}</p>
+            </li>
+          );
+        },
+      )
+    }
+  </ul>
+</Section>

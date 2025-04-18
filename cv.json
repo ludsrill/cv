@@ -1,7 +1,7 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
+    "name": "Luis David Saavedra Grimaldo",
+    "label": "Senior Backend Developer",
     "image": "https://avatars.githubusercontent.com/u/40694133?v=4",
     "email": "john@gmail.com",
     "phone": "(912) 555-4321",
@@ -10,19 +10,35 @@
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Medellin",
+      "countryCode": "CO",
+      "region": "Colombia"
     },
     "profiles": [
       {
-        "network": "Twitter",
+        "network": "Linkedin",
+        "username": "john",
+        "url": "https://twitter.com/john"
+      },
+      {
+        "network": "Github",
         "username": "john",
         "url": "https://twitter.com/john"
       }
     ]
   },
   "work": [
+    {
+      "name": "Company",
+      "position": "President",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Started the company"
+      ]
+    },
     {
       "name": "Company",
       "position": "President",

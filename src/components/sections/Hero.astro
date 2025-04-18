@@ -1,9 +1,18 @@
 ---
 import { basics } from "cv.json";
 import Section from "src/components/Section.astro";
-
+import { MdOutlineEmail } from "react-icons/md";
+import { MdOutlinePhoneInTalk } from "react-icons/md";
+import { BiWorld } from "react-icons/bi";
+import { FaGithub as Github } from "react-icons/fa";
+import { FaLinkedin as Linkedin } from "react-icons/fa";
 const { name, label, image, location, profiles, phone, email } = basics;
-const { city, region } = location;
+const { city, region, countryCode } = location;
+
+const SOCIAL_ICONS: Record<string, any> = {
+  Github,
+  Linkedin,
+};
 ---
 
 <Section>
@@ -12,18 +21,47 @@ const { city, region } = location;
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
-        {city}, {region}
+        <BiWorld />{city}, {region}, {countryCode}
       </span>
       <footer>
         {
           email && (
             <a
-              href={`mailto: ${email}`}
-              title={`Send email to ${name} to ${email}`}
+              title={`Visit the profile of ${name} en ${email}`}
               target="_blank"
               rel="noopener noreferrer"
-            />
+            >
+              <MdOutlineEmail />
+            </a>
           )
+        }
+
+        {
+          phone && (
+            <a
+              title={`Visit the profile of ${name} en ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MdOutlinePhoneInTalk />
+            </a>
+          )
+        }
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network];
+
+            return (
+              <a
+                href={url}
+                title={`Visit the profile of ${name} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon />
+              </a>
+            );
+          })
         }
       </footer>
     </div>
@@ -33,4 +71,63 @@ const { city, region } = location;
   </div>
 </Section>
 
-<style></style>
+<style>
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 32 px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-wrap: balance;
+  }
+  img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 16px;
+  }
+  span {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: -0.05rem;
+  }
+  footer {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
+  footer a {
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #666;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  footer a:hover {
+    border: 1.5px solid beige;
+  }
+</style>
