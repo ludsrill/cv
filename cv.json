@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Luis David Saavedra Grimaldo",
-    "label": "Senior Backend Developer",
+    "label": "Senior Backend Engineer",
     "image": "https://media.licdn.com/dms/image/v2/D5603AQEq4HOqbzkkUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1670248557248?e=1750291200&v=beta&t=GhwK4lrX3tKNC_t45O14zU_dh0S9J9yl1O2HXoKc_N4",
     "email": "luisdavidsag@gmail.com",
     "phone": "(57) 320-504-1211",
@@ -55,6 +55,13 @@
       "startDate": "2015-01-01",
       "endDate": "2019-12-01",
       "score": null,
+      "highlights": [
+        "• Degree work: 3D robotic Bin-Picking system guided by artificial vision for the cobot Baxter.",
+        "• Robotics and machine vision research group.",
+        "• Video game development research group.",
+        "• Elective I. Internet of things (IoT).",
+        "• Electivel II. Artificial vision."
+      ],
       "courses": [
         "Internet of things (IoT).",
         "Artificial vision."
@@ -73,6 +80,12 @@
       "date": "2024-10-01",
       "issuer": "EPAM Systems",
       "url": "https://certificates.epam.com/api/certificates/361931e0-7f23-46e0-a6f9-6ec916e5c9b7/pdf"
+    },
+    {
+      "name": "Neural Networks and Deep Learning",
+      "date": "2021-02-20",
+      "issuer": "DeepLearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/verify/PZRMPWTYLBS5"
     }
   ],
   "skills": [

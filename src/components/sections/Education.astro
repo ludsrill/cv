@@ -7,7 +7,7 @@ import { education } from "cv.json";
   <ul>
     {
       education.map(
-        ({ institution, area, studyType, startDate, endDate, courses }) => {
+        ({ institution, area, studyType, startDate, endDate, highlights }) => {
           const startYear = new Date(startDate).getFullYear();
           const endYear =
             endDate !== null ? new Date(endDate).getFullYear() : "Present";
@@ -22,6 +22,13 @@ import { education } from "cv.json";
                   </div>
                   <time>{years}</time>
                 </header>
+                <body>
+                  <li>
+                    {highlights.map((highlight) => {
+                      return <ul>{highlight}</ul>;
+                    })}
+                  </li>
+                </body>
               </article>
             </li>
           );
@@ -42,8 +49,24 @@ import { education } from "cv.json";
     font-weight: 500;
   }
 
+  body p {
+    color: #d9d9d9;
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  article ul {
+    color: #d9d9d9;
+    font-size: 0.75rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+
   article h4 {
-    font-weight: 400;
+    font-weight: 500;
   }
 
   header {
