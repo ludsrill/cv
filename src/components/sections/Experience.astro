@@ -22,9 +22,14 @@ import { work } from "cv.json";
                   </div>
                   <time>{years}</time>
                 </header>
-                <footer>
+                <body>
                   <p>{summary}</p>
-                </footer>
+                  <li>
+                    {highlights.map((highlight) => {
+                      return <ul>{highlight}</ul>;
+                    })}
+                  </li>
+                </body>
               </article>
             </li>
           );
@@ -41,6 +46,22 @@ import { work } from "cv.json";
     gap: 32px;
   }
 
+  body p {
+    color: beige;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  article ul {
+    color: beige;
+    font-size: 0.7rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+
   article h3 {
     font-weight: 500;
   }
@@ -52,7 +73,7 @@ import { work } from "cv.json";
   header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 4px;
   }
   time {

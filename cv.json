@@ -2,7 +2,7 @@
   "basics": {
     "name": "Luis David Saavedra Grimaldo",
     "label": "Senior Backend Developer",
-    "image": "https://avatars.githubusercontent.com/u/40694133?v=4",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQEq4HOqbzkkUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1670248557248?e=1750291200&v=beta&t=GhwK4lrX3tKNC_t45O14zU_dh0S9J9yl1O2HXoKc_N4",
     "email": "luisdavidsag@gmail.com",
     "phone": "(57) 320-504-1211",
     "url": null,
@@ -50,7 +50,7 @@
     {
       "institution": "Universidad EIA",
       "url": "https://www.eia.edu.co/",
-      "area": "Bachelor of Engineering - BE, Mechatronics, Robotics, and Automation Engineering",
+      "area": "Bachelor of Engineering - BE, Mechatronics",
       "studyType": "Bachelor",
       "startDate": "2015-01-01",
       "endDate": "2019-12-01",
@@ -142,75 +142,33 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "TaskManager",
+      "startDate": "2025-04-01",
+      "endDate": null,
+      "description": "This a task manager where I'm applying some of the most common software development concepts.",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "other one"
+        "Python",
+        "Django",
+        "django-restframework",
+        "API REST",
+        "Authorization",
+        "Authentication",
+        "Pagination",
+        "Typescript",
+        "React"
       ],
-      "url": "https://project.com/"
+      "url": "https://github.com/ludsrill/note_app"
     },
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "Curriculum",
+      "startDate": "2025-04-01",
+      "endDate": null,
+      "description": "This is a minimalist CV, based on the Bartosz Jarocki and Midudev CV projects",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "React",
+        "Astro"
       ],
-      "url": "https://project.com/"
-    },
-    {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    },
-    {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    },
-    {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    },
-    {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    },
-    {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
+      "url": "https://github.com/ludsrill/cv"
     }
   ]
 }
