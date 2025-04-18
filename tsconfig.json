@@ -5,16 +5,10 @@
     "**/*"
   ],
   "exclude": [
-    "dist"
+    "docs"
   ],
   "compilerOptions": {
     "baseUrl": ".",
-    "@/*": [
-      "src/*"
-    ],
-    "@cv": [
-      "./cv.json"
-    ],
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   }
