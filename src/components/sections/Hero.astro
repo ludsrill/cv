@@ -13,6 +13,9 @@ const SOCIAL_ICONS: Record<string, any> = {
   Github,
   Linkedin,
 };
+const linkedinInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedinInfo?.url;
+const printedInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -23,7 +26,11 @@ const SOCIAL_ICONS: Record<string, any> = {
       <span>
         <BiWorld />{city}, {region}, {countryCode}
       </span>
-      <footer>
+      <footer class="print">
+        {printedInfo}
+      </footer>
+
+      <footer class="no-print">
         {
           email && (
             <a
@@ -129,5 +136,22 @@ const SOCIAL_ICONS: Record<string, any> = {
 
   footer a:hover {
     border: 1.5px solid beige;
+  }
+
+  .print {
+    font-size: 0.7rem;
+    display: none !important;
+  }
+
+  @media print {
+    .print {
+      display: block !important;
+    }
+  }
+
+  @media print {
+    .no-print {
+      display: none !important;
+    }
   }
 </style>

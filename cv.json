@@ -3,13 +3,13 @@
     "name": "Luis David Saavedra Grimaldo",
     "label": "Senior Backend Developer",
     "image": "https://avatars.githubusercontent.com/u/40694133?v=4",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "email": "luisdavidsag@gmail.com",
+    "phone": "(57) 320-504-1211",
+    "url": null,
+    "summary": "4+ years of professional backend engineer experience building applications with Python, GraphQL, React and Typescript as stack and experience with  DevOps and Cloud technologies, terraform, containerization  technologies (Docker) and cloud providers as AWS,  Azure, GCP. Working in high-performance teams, focusing on rapidly delivering value to the company and at the same time developing a tool that quickly and accurately delivers value to our clients",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
+      "address": null,
+      "postalCode": null,
       "city": "Medellin",
       "countryCode": "CO",
       "region": "Colombia"
@@ -17,101 +17,106 @@
     "profiles": [
       {
         "network": "Linkedin",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "username": "ldsaavedra",
+        "url": "https://www.linkedin.com/in/ldsaavedra/"
       },
       {
         "network": "Github",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "username": "ludsrill",
+        "url": "https://github.com/ludsrill"
       }
     ]
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
+      "name": "Fluid Attacks",
+      "position": "Backend Engineer",
+      "url": "https://fluidattacks.com/es/",
+      "startDate": "2021-01-01",
       "endDate": null,
-      "summary": "Description…",
+      "summary": "Working on enhancing cybersecurity tools for reporting vulnerabilities using DAST, SAST, CSPM, and SCA techniques.",
       "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "• Leveraged GitLab Runner, Terraform, and AWS to build a robust, fully automated CI/CD pipeline for a GitLab project from scratch, ensuring high availability, scalability, and operational efficiency throughout the development lifecycle.",
+        "• Maintainer of the CSPM module in Fluid Attacks' vulnerability scanner: Responsible for managing and improving the module's performance, vulnerability coverage, documentation and testing.",
+        "• Enhanced execution times by 80%: This improvement significantly increased the speed at which value is delivered to clients and resulted in reduced operational costs.",
+        "• Expanded vulnerability coverage: Achieved substantial growth in the number and variety of vulnerabilities reported, covering services like AWS, Azure, and GCP.",
+        "• Defined documentation: Elaborate comprehensive documentation detailing the functionality and operational guidelines for the CSPM module.",
+        "• Vulnerability resolutions: Actively involved in resolving vulnerabilities reported by the tool, contributing to the security improvements.",
+        "• Proposing new features and improvements: Engaged in cross-functional efforts to not only address jplatform issues but also propose new features and seek ways to enhance the product."
       ]
     }
   ],
   "education": [
     {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
+      "institution": "Universidad EIA",
+      "url": "https://www.eia.edu.co/",
+      "area": "Bachelor of Engineering - BE, Mechatronics, Robotics, and Automation Engineering",
       "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
+      "startDate": "2015-01-01",
+      "endDate": "2019-12-01",
+      "score": null,
       "courses": [
-        "DB1101 - Basic SQL"
+        "Internet of things (IoT).",
+        "Artificial vision."
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
     }
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
+      "name": "LFD121: Developing Secure Software",
+      "date": "2024-10-01",
+      "issuer": "The Linux Foundation",
+      "url": "https://www.credly.com/badges/59eb139d-dfb4-4b1c-82ba-917731f0c5e9/linked_in_profile"
+    },
     {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "Cloud&DevOps Fundamentals",
+      "date": "2024-10-01",
+      "issuer": "EPAM Systems",
+      "url": "https://certificates.epam.com/api/certificates/361931e0-7f23-46e0-a6f9-6ec916e5c9b7/pdf"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "name": "Python"
+    },
+    {
+      "name": "Django"
+    },
+    {
+      "name": "API REST"
+    },
+    {
+      "name": "AWS"
+    },
+    {
+      "name": "Docker"
+    },
+    {
+      "name": "GraphQL"
+    },
+    {
+      "name": "Ariadne"
+    },
+    {
+      "name": "CI/CD"
+    },
+    {
+      "name": "Gitlab Runner"
+    },
+    {
+      "name": "Terraform"
+    },
+    {
+      "name": "Pytest"
+    },
+    {
+      "name": "AWS"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "TypeScript"
     }
   ],
   "languages": [
@@ -136,6 +141,67 @@
     }
   ],
   "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "other one"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
     {
       "name": "Project",
       "startDate": "2019-01-01",

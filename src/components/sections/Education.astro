@@ -3,7 +3,7 @@ import Section from "../Section.astro";
 import { education } from "cv.json";
 ---
 
-<Section title="Experience">
+<Section title="Education">
   <ul>
     {
       education.map(
@@ -35,6 +35,7 @@ import { education } from "cv.json";
 </Section>
 <style>
   ul {
+    list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 32px;
