@@ -74,9 +74,8 @@ const printedInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         }
       </footer>
     </div>
-    <figure>
-      <img src={image} alt={name} />
-    </figure>
+
+    <img src={image} alt={name} />
   </div>
 </Section>
 
@@ -107,7 +106,7 @@ const printedInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
   img {
     aspect-ratio: 1/1;
     object-fit: cover;
-    width: 100px;
+    width: 120px;
     border-radius: 16px;
   }
   span {
